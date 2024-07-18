@@ -1,6 +1,6 @@
 ```
-git config --global user.name "nachiketh"
-git config --global user.email "nachiketh@manifoldaileanring.in"
+git config --global user.name "josie"
+git config --global user.email "latinue@gmail.com"
 
 git init # initialize the existing directory as git repository
 git clone [url]
