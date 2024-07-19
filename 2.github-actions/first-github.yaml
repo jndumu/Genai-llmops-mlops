@@ -16,4 +16,4 @@ jobs:
       - name: Checkout Repo 
         uses: actions/checkout@v4
       - run: printenv
-      - run: echo "this is the env ${{ env.PROJECT_NAME  }} and ${{ env.COURSE  }}  "
+      - run: echo "this is the env ${{ env.PROJECT_NAME  }} and ${{ env.COURSE  }}"
