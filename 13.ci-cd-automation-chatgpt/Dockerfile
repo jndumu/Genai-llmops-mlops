@@ -1,5 +1,5 @@
 #!/bin/bash
-FROM --platform=linux/amd64 python:3.10
+FROM python:3.10 # for mac include --platform=linux/amd64
 COPY . .
 RUN pip install -r requirements.txt
 EXPOSE 80
